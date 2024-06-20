@@ -5,7 +5,8 @@ import React from 'react'
 import { usePathname, useSelectedLayoutSegment } from 'next/navigation'
 import useScroll from '@/hook/use-scroll'
 import { cn } from '@/lib/utils'
-import BreadcrumbsUi from './breadcrumbs'
+import BreadcrumbsUi from './ui/breadcrumbs'
+
 
 const Header = () => {
   const scrolled = useScroll(5);
